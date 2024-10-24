@@ -24,7 +24,7 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '无界101', // 您的昵称 例如 tangly1024
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '无界博客', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '风景这边独好', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.borderless101.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '移民,留学,旅行,签证,工签,永居,入籍,海外购房,海外投资,海外创业,海外公司注册,海外银行开户,离岸账户,美股券商,海外电话卡,美国,加拿大,墨西哥,西班牙,葡萄牙,芬兰,亚美尼亚,日本,马来西亚,泰国,印度尼西亚', // 网站关键词 英文逗号隔开
